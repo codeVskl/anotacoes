@@ -1,0 +1,24 @@
+/* p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+} */
+
+    /* margin: 30px 15px 30px 15px; */
+
+p{
+    /* espaçamento Externo */
+    margin: 30px 15px;
+    /* espaçamento Interno */
+    padding: 20px 9px;
+    background-color: aquamarine;
+    border: 20px solid red;
+}
+
+h1{
+    border-style: solid;
+    border-width: 20px;
+    
+    border-color: green cyan yellow blue;
+}

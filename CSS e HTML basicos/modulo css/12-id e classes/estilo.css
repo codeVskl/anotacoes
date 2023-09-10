@@ -1,0 +1,12 @@
+/* #descricao-pc, #descricao-ps {
+    background-color: orange;
+} */
+
+.descricao-produto{
+    background-color: orange;
+    color: aliceblue;
+}
+
+.promocao{
+    border: solid 5px green;
+}

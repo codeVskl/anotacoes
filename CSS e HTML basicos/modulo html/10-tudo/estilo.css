@@ -1,0 +1,29 @@
+.cabecalho{
+    background-color: blueviolet;
+    padding: 10px 5px;
+}
+
+.cabecalho .logo {
+    display: inline-block;
+}
+
+.cabecalho nav {
+    float: right;
+}
+
+.cabecalho nav li {
+    display: inline-block;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(51,51,51,1);
+}
+
+.colorido {
+    padding: 3px;
+    background-color: papayawhip;
+    border:solid 1px;
+    border-radius: 30%;
+}
