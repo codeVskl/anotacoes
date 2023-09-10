@@ -1,0 +1,17 @@
+.fa-facebook {
+    color: blue;
+    font-size: 30px;
+}
+
+.fa-facebook:hover {
+    color: blueviolet;
+}
+
+.fa-instagram {
+    color: #000;
+}
+
+.fa-instagram:hover {
+    font-size: 1.5em;
+}
+

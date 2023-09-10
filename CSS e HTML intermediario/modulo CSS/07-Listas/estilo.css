@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    /* list-style-image: url(https://placekitten.com/150/100); */
+    background-color: aquamarine;
+    list-style: square inside url(https://placekitten.com/150/100);
+}
+
+ul li {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+ol {
+    /* list-style-image: url(https://placekitten.com/150/100); */
+    background-color: blueviolet;
+    list-style: square inside url(https://placekitten.com/130/80);
+}
+
+ol li {
+    border: 1px solid black;
+    padding: 8px;
+}

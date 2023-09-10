@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade e media queries</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="logo">Logo</h1>
+        <nav>
+            <ul>
+                <li><a href="https://placekitten.com/445/294" target="_blank">gatinho</a></li>
+                <li><a href="https://placekitten.com/1024/295" target="_blank">gatão</a></li>
+                <li><a href="https://github.com/codeVskl" target="_blank">contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="painel">
+            <div class="info">
+                <h1>Um filme de gato</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas minus dolor voluptatibus qui repudiandae placeat perferendis, reprehenderit id fugit nam consequuntur dolorem ullam aperiam minima iusto, vitae incidunt deserunt expedita.</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nostrum voluptatum corrupti, enim minus dignissimos ea? Sit, ullam nisi commodi saepe consequatur facilis laborum repellendus, perferendis beatae in quasi necessitatibus?</p>
+            </div>
+
+            <div class="image">
+                <picture>
+                    <source srcset="https://placekitten.com/445/294" media="(max-width: 600px)">
+
+                    <img src="https://placekitten.com/1024/295" alt="um filme de gato">
+                </picture>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
