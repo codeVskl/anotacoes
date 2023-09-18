@@ -1,0 +1,25 @@
+/* seletor::pseudo-elemento {
+    propriedade: valor;
+} */
+
+p::first-line {
+    color: aquamarine;
+}
+
+/* .paragrafo::first-letter {
+    color: aquamarine;
+} */
+
+li::marker {
+    color: red;
+    font-size: 23px;
+}
+
+h2::before {
+    content:"";
+    background: url(https://placekitten.com/32/32) center center no-repeat;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+} /*url(https://placekitten.com/32/32);
+} */
